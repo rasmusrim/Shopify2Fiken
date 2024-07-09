@@ -1,0 +1,1 @@
+npx nswag openapi2csclient /input:https://api.fiken.no/api/v2/docs/swagger.yaml /classname:FikenClient /namespace:Fiken.Sdk /output:./FikenClient.cs /jsonLibrary:"SystemTextJson"
