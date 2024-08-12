@@ -44,7 +44,7 @@ public class FikenCommunicator
     {
         return _api.GetInvoicesAsync(
             null,
-            null,
+            999999,
             null,
             null,
             null,
